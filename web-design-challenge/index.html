@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Landing page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Analysis Dashboard with Attitude</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="Cloudiness.html">Cloudiness</a></li>
+                            <li><a class="dropdown-item" href="Humidity.html">Humidity</a></li>
+                            <li><a class="dropdown-item" href="MaxTemperature.html">Max Temperature</a></li>
+                            <li><a class="dropdown-item" href="WindSpeed.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Comparision.html">Comparision</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cities.html">Cities Data Table</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-current="page" href="index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row content">
+        <div class="col-sm-12 col-md-8 col-lg-8">
+            <h2 class="text-left">Summary: Latitude vs. Temperature</h2>
+            <p>You can navigate to the various pages by either clicking on an image in the visualizations or via the menus.</p>
+            <img src="Resources/assets/images/Fig1.png" alt="Latitude vs Temperature" class="rounded main-image">
+            <p>The purpose of this project was to demostrate the ability to build web pages with visualizations. Data was assembled using previous weather analysis homework assignment.</p>
+        </div>
+         <div class="col-sm-12 col-md-4 col-lg-4" >
+            <h2 class="text-left">Visualizations</h2>
+            <a href="MaxTemperature.html">
+                <img src="Resources/assets/images/Fig1.png" class="rounded float-left thumbnail" alt="Latitude vs Temperature">
+            </a>
+            <a href="Humidity.html">
+                <img src="Resources/assets/images/Fig2.png" class="rounded float right thumbnail" alt="Latitude vs Humidity">
+            </a>
+            <a href="Cloudiness.html">
+                <img src="Resources/assets/images/Fig3.png" class="rounded float-left  thumbnail" alt="Latitude vs Temperature">
+            </a>
+            <a href="WindSpeed.html">
+                <img src="Resources/assets/images/Fig4.png" class="rounded float right  thumbnail" alt="Latitude vs Humidity">
+            </a>
+        </div>
+    </div>
+</body>
